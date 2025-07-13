@@ -4,6 +4,7 @@
   "name": "Mark Read",
   "short_name": "Mark Read",
   "author": "neds99",
+  "homepage_url": "https://github.com/neds99/MarkRead",
   "description": "Mark all the links on page as read with the click of a button",
   "icons": {
     "16": "icon/icon16.png",
@@ -19,14 +20,7 @@
     "default_title": "Mark Read"
   },
   "permissions": ["activeTab", "history", "scripting"],
-  "host_permissions": ["<all_urls>"],
   "background": {
     "service_worker": "background.js"
-  },
-  "content_scripts": [
-    {
-      "matches": ["<all_urls>"],
-      "js": ["markread.js"]
-    }
-  ]
+  }
  }
