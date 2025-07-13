@@ -20,6 +20,6 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
   if (message.action === "collectAndSendLinks") {
     collectAndSendLinks();
     sendResponse({ status: "links_sent" });
-    return true; // Indicate that sendResponse will be called asynchronously
+    return true; 
   }
 });
