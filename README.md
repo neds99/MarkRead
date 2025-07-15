@@ -20,4 +20,4 @@ This extension adds every single anchor tag to your Chrome history (this DOES NO
 
 ## License
 
-Mark Read is licensed under the [MIT License](LICENSE).
+MarkRead is licensed under the [MIT License](LICENSE).
