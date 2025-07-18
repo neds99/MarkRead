@@ -4,11 +4,11 @@ One-click button to mark all the links on the page as read. This extension is an
 
 This turns all links to the `:visited` color so you know what you've seen before and didn't want to click on. 
 
-You can install this extension from the [Chrome Web Store](https://chrome.google.com/webstore/detail/MarkRead/leabfebnoebcmlcefkiehdnclldlghmi).
+You can install this extension from the [Chrome Web Store](https://chrome.google.com/webstore/detail/mark-read/leabfebnoebcmlcefkiehdnclldlghmi).
 
-[![MarkRead on Chrome Web Store](screenshots/webstore.png)](https://chrome.google.com/webstore/detail/MarkRead/leabfebnoebcmlcefkiehdnclldlghmi)
+[![MarkRead on Chrome Web Store](screenshots/webstore.png)](https://chrome.google.com/webstore/detail/mark-read/leabfebnoebcmlcefkiehdnclldlghmi)
 
-[![Screenshot](screenshots/screenshot.png)](https://chrome.google.com/webstore/detail/MarkRead/leabfebnoebcmlcefkiehdnclldlghmi)
+[![Screenshot](screenshots/screenshot.png)](https://chrome.google.com/webstore/detail/mark-read/leabfebnoebcmlcefkiehdnclldlghmi)
 
 ## Features
 
