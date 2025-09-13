@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mark Read Options</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; padding: 1em 2em; max-width: 600px; margin: 2em auto; border: 1px solid #ddd; border-radius: 8px; }
+    h1, h2 { color: #333; }
+    p { line-height: 1.6; }
+    button { font-size: 1em; padding: 0.5em 1em; cursor: pointer; background-color: #d9534f; color: white; border: 1px solid #d43f3a; border-radius: 4px; }
+    button:hover { background-color: #c9302c; }
+    #saveSettings { background-color: #28a745; border-color: #28a745; margin-left: 0.5em; }
+    #saveSettings:hover { background-color: #218838; }
+    #status { margin-top: 1em; color: #28a745; font-weight: bold; }
+    input[type="number"] { width: 60px; padding: 0.4em; font-size: 0.9em; }
+    hr { border: 0; border-top: 1px solid #eee; margin: 2em 0; }
+  </style>
+</head>
+<body>
+  <h1>Mark Read Options</h1>
+
+  <h2>Statistics</h2>
+  <p id="stats">Loading stats...</p>
+
+  <hr>
+
+  <h2>Settings</h2>
+  <p>Configure data management and appearance settings.</p>
+  <div>
+    <label for="pruneAfterDays">Prune links older than</label>
+    <input type="number" id="pruneAfterDays" min="0" step="1"> days.
+  </div>
+  <div style="margin-top: 1em;">
+    <label for="linkColor">"Marked as read" link color:</label>
+    <input type="color" id="linkColor">
+  </div>
+  <div style="margin-top: 1em;">
+    <button id="saveSettings">Save Settings</button>
+  </div>
+
+  <hr>
+
+  <h2>Clear Data</h2>
+  <p>If you are running into storage limits or wish to start over, you can clear all saved link data here.</p>
+  <p><strong>Warning:</strong> This will permanently remove all of your "marked as read" link history. This action cannot be undone.</p>
+  <button id="clearData">Clear All Saved Links</button>
+  <div id="status"></div>
+  <script src="options.js"></script>
+</body>
+</html>
